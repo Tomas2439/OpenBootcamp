@@ -1,0 +1,38 @@
+html{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    background-color: #3c3c3c;
+    margin: 2em 3em;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: aquamarine 2px solid;
+    padding: 0.5em 0.5em;
+}
+
+#titulo{
+    font-size: 2.5em;
+    color: #087e8b;
+}
+.elemento-1{
+    font-size: 2rem;
+    color:red;
+}
+.encabezado{
+    font-size: 1em;
+    color: rgb(174, 121, 224);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
