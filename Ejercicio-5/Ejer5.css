@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body div{
+    background-color: cadetblue;
+    height: 100%;
+    width: 80%;
+    padding: 1em;
+    border-radius: 9px;
+}
+body div img{
+    margin: 1em 0.5em;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: black 1px solid;
+}
+body h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    color: #ec38ec;
+    text-shadow: #ec38ecaf 1px 1px;
+}
