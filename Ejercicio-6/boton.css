@@ -11,7 +11,7 @@ button:before{
     visibility: hidden;
 }
 
-.boton:hover{
+.boton:hover::before{
     color: white;
     background-color: green;
     content: "¡Hecho!";
