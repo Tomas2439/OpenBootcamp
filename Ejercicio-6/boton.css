@@ -1,0 +1,25 @@
+.boton{
+    padding: 2em;
+    border: black 1px solid;
+    border-radius: .8em;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.507);
+    font-size: 1em;
+}
+button:before{
+    content: "Pasa por encima";
+    visibility: hidden;
+}
+
+.boton:hover{
+    color: white;
+    background-color: green;
+    content: "¡Hecho!";
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
