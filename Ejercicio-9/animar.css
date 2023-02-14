@@ -1,0 +1,27 @@
+body{
+    background-color: blueviolet;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.btn-modern{
+    height: 5em;
+    width: 10em;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: green;
+    color:white;
+    cursor: pointer;
+    transition: background-color 0.4s; /* Transición de 0.4 segundos */
+}
+.btn-modern:hover{
+    background-color: rgba(0, 100, 0, 0.75); /* Cambio del fondo del botón */
+    color: chartreuse; /* Cambio de color del texto*/
+    transform: translateY(-5px); /* Desplazamiento -5px */
+    border-bottom: 3px solid rgba(0, 100, 0); /* Sombra del Botón*/
+}
