@@ -1,0 +1,10 @@
+body{
+    background-color: blueviolet;
+}
+section div{
+    border: 2px darkblue solid;
+    background-color: darkslategrey;
+    color: antiquewhite;
+    font-size: 15px;
+    padding: 10px;
+}
