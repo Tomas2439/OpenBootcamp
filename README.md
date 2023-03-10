@@ -21,4 +21,6 @@
 -  Ejercicio 12 : **Elementos de Interés en Bootstrap.**
 
 ------------
+PD:
 *Todos los ejercicios tienen pequeños cambios particulares para facilitar mi ejercitación (fondos, sombreados, bordes, etc.)*
+*El ejercicio o entrega final se realizara en un repositorio aparte, proximamente lo subire y lo enlazare al read.me*
